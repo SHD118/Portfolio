@@ -11,6 +11,11 @@ header {
   width: 100%;
   background-color: gray;
 }
+.title_sid {
+  margin-left: 100px;
+  padding-top: 50px;
+}
+
 .navbar_items {
   /* display: inline-block; */
   float: right;
@@ -32,6 +37,29 @@ header {
   background-color: greenyellow;
 
   background-position: center;
+}
+.banner-text {
+  font-family: "Roboto", sans-serif;
+  font-size: 11px;
+  color: white;
+  position: relative;
+  top: 50%;
+  font-size: 80px;
+  float: right;
+  /* transform: translateY(-50%); */
+  background-color: blue;
+}
+.icon {
+  /* display: inline-block;*/
+  position: relative;
+  /* width: 200px;
+  height: 200px; */
+  /* margin-left: -100px; */
+
+  /* overflow: hidden; */
+  float: left;
+  margin-left: 4vw;
+  border-radius: 50%;
 }
 .about_me {
   display: flex;
@@ -62,7 +90,7 @@ h2 {
 }
 
 .work_div {
-  width: 30.5vw;
+  width: 26vw;
   height: 20vw;
   display: flex;
   background-image: url("../img/port.jpg");
