@@ -1,3 +1,5 @@
+* {
+}
 body {
   margin-left: 100px;
   margin-right: 100px;
@@ -39,12 +41,14 @@ header {
   background-position: center;
 }
 .banner-text {
+  display: inline-block;
   font-family: "Roboto", sans-serif;
-  font-size: 11px;
+  font-size: 4em;
   color: white;
-  position: relative;
+  z-index: 1;
+  position: static;
   top: 50%;
-  font-size: 80px;
+  /* font-size: 80px; */
   float: right;
   /* transform: translateY(-50%); */
   background-color: blue;
@@ -115,8 +119,20 @@ h2 {
   border-right: 5px solid red;
   margin-left: 100px;
   height: 500px;
+  z-index: 1;
 }
-
+.border_2 {
+  border-right: 5px solid red;
+  margin-left: 100px;
+  height: 200px;
+  z-index: 1;
+}
+.border_1 {
+  border-right: 5px solid red;
+  margin-left: 100px;
+  height: 100px;
+  z-index: 1;
+}
 #caption {
   /* align-self: center;
   align-content: center; */
@@ -165,4 +181,11 @@ li {
 /* pesduo classes */
 .work_div:hover {
   opacity: 0.2;
+}
+
+@media (min-width: 500px) {
+  #banner_text {
+    display: inline;
+    font-size: 2em;
+  }
 }
