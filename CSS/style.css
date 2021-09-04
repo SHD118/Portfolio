@@ -5,14 +5,20 @@ body {
 main {
   background-color: lavenderblush;
 }
+
 header {
   height: 100px;
+  width: 100%;
   background-color: gray;
 }
 .navbar_items {
+  /* display: inline-block; */
   float: right;
-  margin-right: 60px;
+  /* width: 100px; */
+  /* flex-basis: 100%; */
+  margin-right: 3vw;
   margin-bottom: 50px;
+  width: fit-content;
 }
 .navbar_items ul {
   display: flex;
@@ -39,6 +45,9 @@ p {
   margin: 100px;
   width: 100%;
 }
+h2 {
+  font-size: 60px;
+}
 .work1 {
   /* background-color: indigo; */
 }
@@ -46,16 +55,17 @@ p {
   display: flex;
   flex-wrap: wrap;
 
-  flex-grow: 1;
+  /* flex-grow: 1; */
   /* background-color: pink; */
 
   justify-content: center;
 }
+
 .work_div {
   width: 30.5vw;
   height: 20vw;
   display: flex;
-  background-image: url("./././port.jpg");
+  background-image: url("../img/port.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   flex-wrap: wrap;
@@ -72,6 +82,11 @@ p {
   margin-top: 4vw;
   width: 80%;
   height: 30vw;
+}
+.border {
+  border-right: 5px solid red;
+  margin-left: 100px;
+  height: 500px;
 }
 
 #caption {
@@ -96,6 +111,27 @@ p {
 
 .contact {
   display: flex;
+  width: 100%;
+}
+
+.contact_content {
+  text-align: unset;
+  width: 100%;
+  display: flex;
+  align-content: space-between;
+  text-align: center;
+}
+ul {
+  display: flex;
+  align-content: space-between;
+  text-align: center;
+}
+li {
+  /* width: 100%; */
+  display: flex;
+  align-content: space-between;
+  text-align: center;
+  margin: 10px;
 }
 
 /* pesduo classes */
