@@ -1,12 +1,57 @@
-* {
+:root {
+  --border-right: 5px solid white;
+  --margin-left-border: 100px;
+  --float-right: right;
+  --float-left: left;
+  --display-flex: flex;
+  --width-100: 100%;
+  --position-relative: relative;
+  --position-absolute: absolute;
+  --center-position: center;
 }
 body {
   margin-left: 100px;
   margin-right: 100px;
 }
 main {
-  background-color: lavenderblush;
+  background: rgb(177, 17, 149);
+  background: radial-gradient(
+    circle,
+    rgba(177, 17, 149, 1) 0%,
+    rgba(20, 3, 18, 0.8435749299719888) 100%
+  );
 }
+/* global */
+.work,
+.work_di,
+.navbar_items,
+.contact,
+ul,
+li,
+.about_me {
+  display: var(--display-flex);
+  /* text-align: center; */
+}
+.work_div,
+.icon {
+  position: var(--position-relative);
+}
+.banner-text,
+#caption {
+  position: var(--position-absolute);
+}
+ul,
+li {
+  text-align: var(--center-position);
+  margin-left: 10px;
+}
+.work,
+.banner #caption {
+  justify-content: var(--center-position);
+  text-align: var(--center-position);
+  background-position: var(--center-position);
+}
+/* end */
 
 header {
   height: 100px;
@@ -19,95 +64,66 @@ header {
 }
 
 .navbar_items {
-  /* display: inline-block; */
-  float: right;
-  /* width: 100px; */
-  /* flex-basis: 100%; */
+  float: var(--float-right);
   margin-right: 3vw;
   margin-bottom: 50px;
-  width: fit-content;
 }
-.navbar_items ul {
-  display: flex;
-}
+
 .banner {
-  display: block;
   height: 400px;
   width: 100%;
 
   background-size: cover;
   background-color: greenyellow;
-
-  background-position: center;
 }
 .banner-text {
-  display: inline-block;
+  display: inline-flex;
+  margin-left: 30px;
+  margin-top: 80px;
   font-family: "Roboto", sans-serif;
-  font-size: 4em;
+  font-size: 5vw;
   color: white;
   z-index: 1;
-  position: static;
-  top: 50%;
-  /* font-size: 80px; */
-  float: right;
-  /* transform: translateY(-50%); */
   background-color: blue;
 }
 .icon {
-  /* display: inline-block;*/
-  position: relative;
-  /* width: 200px;
-  height: 200px; */
-  /* margin-left: -100px; */
-
-  /* overflow: hidden; */
-  float: left;
+  float: var(--float-left);
   margin-left: 4vw;
   border-radius: 50%;
 }
-.about_me {
-  display: flex;
-}
 
 aside {
-  float: left;
+  float: var(--float-left);
   margin: 100px;
 }
 p {
   margin: 100px;
-  width: 100%;
+  width: var(--width-100);
 }
 h2 {
   font-size: 60px;
 }
-.work1 {
-  /* background-color: indigo; */
-}
+
 .work {
-  display: flex;
   flex-wrap: wrap;
 
-  /* flex-grow: 1; */
-  /* background-color: pink; */
-
-  justify-content: center;
+  /* justify-content: center; */
 }
 
 .work_div {
   width: 26vw;
   height: 20vw;
-  display: flex;
+
   background-image: url("../img/port.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  flex-wrap: wrap;
-  border: 10px solid lawngreen;
+  /* flex-wrap: wrap; */
+  border: 10px solid white;
 
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
-  position: relative;
 }
 .work_div:first-child {
   display: block;
@@ -115,37 +131,27 @@ h2 {
   width: 80%;
   height: 30vw;
 }
-.border {
-  border-right: 5px solid red;
-  margin-left: 100px;
+.border,
+.border_1,
+.border_2 {
+  border-right: var(--border-right);
+  margin-left: var(--margin-left-border);
   height: 500px;
-  z-index: 1;
 }
 .border_2 {
-  border-right: 5px solid red;
-  margin-left: 100px;
   height: 200px;
-  z-index: 1;
 }
 .border_1 {
-  border-right: 5px solid red;
-  margin-left: 100px;
   height: 100px;
-  z-index: 1;
 }
 #caption {
-  /* align-self: center;
-  align-content: center; */
-  /* width: 100px;*/
-
-  position: absolute;
-  width: 283px;
+  width: 12vw;
   height: 50px;
   bottom: 0px;
 
   color: #ffffff;
   background: green;
-  text-align: center;
+  /* text-align: center; */
   font-weight: bold;
   opacity: 1;
 
@@ -154,28 +160,7 @@ h2 {
 }
 
 .contact {
-  display: flex;
-  width: 100%;
-}
-
-.contact_content {
-  text-align: unset;
-  width: 100%;
-  display: flex;
-  align-content: space-between;
-  text-align: center;
-}
-ul {
-  display: flex;
-  align-content: space-between;
-  text-align: center;
-}
-li {
-  /* width: 100%; */
-  display: flex;
-  align-content: space-between;
-  text-align: center;
-  margin: 10px;
+  width: var(--width-100);
 }
 
 /* pesduo classes */
