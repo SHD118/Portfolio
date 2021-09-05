@@ -15,24 +15,20 @@
   --position-relative: relative;
   --position-absolute: absolute;
   --center-position: center;
+  --background-gradient: linear-gradient(
+    to right,
+    #485563,
+    #29323c
+  ); /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 body {
-  /* margin-left: var(--hundred_pixel);
-  margin-right: var(--hundred_pixel); */
-  background: rgb(177, 17, 149);
-  background: radial-gradient(
-    circle,
-    rgba(177, 17, 149, 1) 0%,
-    rgba(20, 3, 18, 0.8435749299719888) 100%
-  );
+  background: var(--background-gradient);
 }
 main {
-  background: rgb(177, 17, 149);
-  background: radial-gradient(
-    circle,
-    rgba(177, 17, 149, 1) 0%,
-    rgba(20, 3, 18, 0.8435749299719888) 100%
-  );
+  opacity: 0.8;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* global */
 .work,
@@ -70,7 +66,8 @@ li {
 header {
   height: var(--hundred_pixel);
   width: var(--hundred_percent);
-  background-color: gray;
+  background: var(--background-gradient);
+  opacity: 1;
 }
 header .title_sid {
   /* padding-left: var(--hundred_pixel); */
@@ -82,7 +79,7 @@ header .title_sid {
   background-size: 10%;
   font-size: 2vw;
 
-  background-color: yellow;
+  background-image: yellow;
 }
 
 .navbar_items {
@@ -96,14 +93,17 @@ header .title_sid {
 .banner {
   height: 400px;
   width: var(--hundred_percent);
-
-  background-size: cover;
-  background-color: greenyellow;
+  background-image: url("../img/mountain.jpg");
 }
+/* #banner_img {
+  background-image: url("../img/mountain.jpg");
+} */
+
 .banner-text {
   display: inline-flex;
-  margin-left: 30px;
-  margin-top: 80px;
+  margin-left: 20%;
+  margin-top: 10%;
+
   font-family: "Roboto", sans-serif;
   font-size: 3vw;
   float: var(--float-right);
@@ -140,6 +140,7 @@ h2 {
   height: 20vh;
 
   background-image: url("../img/port.jpg");
+  opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
   /* flex-wrap: wrap; */
@@ -194,12 +195,14 @@ h2 {
 
 /* pesduo classes */
 .work_div:hover {
-  opacity: 0.2;
+  opacity: 1;
 }
 
 @media (max-width: 770px) {
   .banner-text {
     background-color: chocolate;
+    font-size: 3vw;
+    margin-right: 6%;
     /* margin-top: 50%; */
   }
   .work_div {
