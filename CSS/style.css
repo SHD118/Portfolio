@@ -1,17 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
 :root {
   --border-right: 5px solid white;
   --margin-left-border: 100px;
   --float-right: right;
   --float-left: left;
   --display-flex: flex;
-  --width-100: 100%;
+  --hundred_percent: 100%;
+  --hundred_pixel: 100px;
   --position-relative: relative;
   --position-absolute: absolute;
   --center-position: center;
 }
 body {
-  margin-left: 100px;
-  margin-right: 100px;
+  /* margin-left: var(--hundred_pixel);
+  margin-right: var(--hundred_pixel); */
+  background: rgb(177, 17, 149);
+  background: radial-gradient(
+    circle,
+    rgba(177, 17, 149, 1) 0%,
+    rgba(20, 3, 18, 0.8435749299719888) 100%
+  );
 }
 main {
   background: rgb(177, 17, 149);
@@ -44,6 +57,7 @@ ul,
 li {
   text-align: var(--center-position);
   margin-left: 10px;
+  color: white;
 }
 .work,
 .banner #caption {
@@ -54,24 +68,34 @@ li {
 /* end */
 
 header {
-  height: 100px;
-  width: 100%;
+  height: var(--hundred_pixel);
+  width: var(--hundred_percent);
   background-color: gray;
 }
-.title_sid {
-  margin-left: 100px;
-  padding-top: 50px;
+header .title_sid {
+  /* padding-left: var(--hundred_pixel); */
+  margin-top: 1%;
+  float: left;
+  /* width: 30%; */
+  padding-left: 5%;
+
+  background-size: 10%;
+  font-size: 2vw;
+
+  background-color: yellow;
 }
 
 .navbar_items {
   float: var(--float-right);
-  margin-right: 3vw;
-  margin-bottom: 50px;
+  margin-right: 5%;
+  margin-top: 2%;
+  font-size: 1.5vw;
+  color: white;
 }
 
 .banner {
   height: 400px;
-  width: 100%;
+  width: var(--hundred_percent);
 
   background-size: cover;
   background-color: greenyellow;
@@ -81,9 +105,10 @@ header {
   margin-left: 30px;
   margin-top: 80px;
   font-family: "Roboto", sans-serif;
-  font-size: 5vw;
+  font-size: 3vw;
+  float: var(--float-right);
   color: white;
-  z-index: 1;
+  /* z-index: 1; */
   background-color: blue;
 }
 .icon {
@@ -94,11 +119,11 @@ header {
 
 aside {
   float: var(--float-left);
-  margin: 100px;
+  margin: var(--hundred_pixel);
 }
 p {
-  margin: 100px;
-  width: var(--width-100);
+  margin: var(--hundred_pixel);
+  width: var(--hundred_percent);
 }
 h2 {
   font-size: 60px;
@@ -112,7 +137,7 @@ h2 {
 
 .work_div {
   width: 26vw;
-  height: 20vw;
+  height: 20vh;
 
   background-image: url("../img/port.jpg");
   background-size: cover;
@@ -142,7 +167,11 @@ h2 {
   height: 200px;
 }
 .border_1 {
-  height: 100px;
+  height: var(--hundred_pixel);
+}
+.cont {
+  float: left;
+  width: 50%;
 }
 #caption {
   width: 12vw;
@@ -160,7 +189,7 @@ h2 {
 }
 
 .contact {
-  width: var(--width-100);
+  width: var(--hundred_percent);
 }
 
 /* pesduo classes */
@@ -168,9 +197,82 @@ h2 {
   opacity: 0.2;
 }
 
-@media (min-width: 500px) {
-  #banner_text {
-    display: inline;
-    font-size: 2em;
+@media (max-width: 770px) {
+  .banner-text {
+    background-color: chocolate;
+    /* margin-top: 50%; */
+  }
+  .work_div {
+    width: 100%;
+  }
+  #caption {
+    display: block;
+    width: 100%;
+  }
+  main {
+    margin: 0;
+    width: 100%;
+  }
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+  .contact p {
+    text-align: center;
+
+    margin: 5%;
+  }
+  .border_1 {
+    display: flex;
+    flex-direction: column;
+    border-right: 0;
+    height: 50px;
+    border-bottom: 5px solid white;
+    width: 50%;
+  }
+
+  .about_me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .about_me p {
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    width: 80%;
+    margin-top: -10%;
+  }
+  .border_2 {
+    display: flex;
+    flex-direction: column;
+    border-right: 0;
+    height: 50px;
+    border-bottom: 5px solid white;
+    width: 50%;
+    padding-bottom: 10%;
+  }
+  .border {
+    display: flex;
+    flex-direction: column;
+    border-right: 0;
+    height: 50px;
+    border-bottom: 5px solid white;
+    width: 50%;
+    padding-bottom: 10%;
+  }
+
+  .work1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .contact h2 {
+    font-size: 40px;
+    /* margin-left: 50px; */
   }
 }
