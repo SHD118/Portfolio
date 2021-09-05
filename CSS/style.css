@@ -37,9 +37,14 @@ main {
 .contact,
 ul,
 li,
-.about_me {
+.about_me,
+.resume {
   display: var(--display-flex);
   /* text-align: center; */
+}
+.about_me p {
+  margin-top: 8%;
+  margin-right: 10%;
 }
 .work_div,
 .icon {
@@ -122,7 +127,7 @@ aside {
   margin: var(--hundred_pixel);
 }
 p {
-  margin: var(--hundred_pixel);
+  /* margin: var(--hundred_pixel); */
   width: var(--hundred_percent);
 }
 h2 {
@@ -139,7 +144,8 @@ h2 {
   width: 26vw;
   height: 20vh;
 
-  background-image: url("../img/port.jpg");
+  /* background-image: url("../img/port.jpg"); */
+  background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
@@ -180,13 +186,13 @@ h2 {
   bottom: 0px;
 
   color: #ffffff;
-  background: green;
-  /* text-align: center; */
+
   font-weight: bold;
   opacity: 1;
 
   margin-left: 0%;
   margin-bottom: 5%;
+  background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);
 }
 
 .contact {
@@ -198,12 +204,88 @@ h2 {
   opacity: 1;
 }
 
+.navbar_items a:hover,
+.title_sid:hover {
+  color: aqua;
+}
+.resume {
+  /* width: var(--hundred_percent); */
+  /* display: flex;
+  flex-wrap: wrap; */
+  width: 100%;
+}
+.resume_container {
+  /* display: flex;
+  flex-wrap: wrap; */
+  margin: auto;
+  width: 60%;
+  height: 200px;
+  border: 5px solid white;
+  padding: 10px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #aa076b 0%,
+    #61045f 51%,
+    #aa076b 100%
+  );
+}
+.button_div {
+  display: flex;
+  justify-content: center;
+
+  margin: 2%;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #02aab0 0%,
+    #00cdac 51%,
+    #02aab0 100%
+  );
+}
+
+.btn-grad {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+.resume_container p {
+  text-align: center;
+  padding: auto;
+}
+.banner img:hover {
+  transform: rotate(50deg);
+}
 @media (max-width: 770px) {
   .banner-text {
     background-color: chocolate;
     font-size: 3vw;
     margin-right: 6%;
-    /* margin-top: 50%; */
   }
   .work_div {
     width: 100%;
@@ -216,6 +298,7 @@ h2 {
     margin: 0;
     width: 100%;
   }
+
   .contact {
     display: flex;
     flex-direction: column;
@@ -227,6 +310,13 @@ h2 {
 
     margin: 5%;
   }
+  .resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+  }
+
   .border_1 {
     display: flex;
     flex-direction: column;
@@ -241,13 +331,15 @@ h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    /* transition: ease all 0.5s; */
   }
   .about_me p {
     display: flex;
     flex-direction: column;
     height: 50%;
     width: 80%;
-    margin-top: -10%;
+    margin-top: -5%;
+    /* transition: ease all 0.5s; */
   }
   .border_2 {
     display: flex;
