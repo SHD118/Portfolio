@@ -1,10 +1,12 @@
 * {
+  /* global styling setting */
   margin: 0;
   padding: 0;
   text-decoration: none;
   color: white;
 }
 :root {
+  /* Create Variables to reused and consolidate repetivie code */
   --border-right: 5px solid white;
   --margin-left-border: 100px;
   --float-right: right;
@@ -15,20 +17,15 @@
   --position-relative: relative;
   --position-absolute: absolute;
   --center-position: center;
-  --background-gradient: linear-gradient(
-    to right,
-    #485563,
-    #29323c
-  ); /* fallback for old browsers */
-  /* Chrome 10-25, Safari 5.1-6 */
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  --background-gradient: linear-gradient(to right, #485563, #29323c);
 }
 body {
+  /* styling a graidant for the body by using --background-gradient variable*/
   background: var(--background-gradient);
 }
 main {
+  /* I like the look with a lower opaticy overlaying all of main */
   opacity: 0.8;
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 /* global */
 .work,
@@ -75,10 +72,9 @@ header {
   opacity: 1;
 }
 header .title_sid {
-  /* padding-left: var(--hundred_pixel); */
   margin-top: 1%;
   float: left;
-  /* width: 30%; */
+
   padding-left: 5%;
 
   background-size: 10%;
@@ -100,9 +96,6 @@ header .title_sid {
   width: var(--hundred_percent);
   background-image: url("../img/mountain.jpg");
 }
-/* #banner_img {
-  background-image: url("../img/mountain.jpg");
-} */
 
 .banner-text {
   display: inline-flex;
