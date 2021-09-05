@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="CSS/reset.css" />
     <link rel="stylesheet" href="CSS/style.css" />
-    <title>Portfolio</title>
+    <title aria-label="Portfolio">Portfolio</title>
   </head>
   <body>
     <header>
-      <!-- Created Header for webpage -->
+      <!-- navabar header -->
       <h1 class="title_sid">Siddharth Desai</h1>
-      <!-- Created nav bar -->
+<!-- navarbar items -->
       <nav class="navbar_items">
         <ul>
-          <li><a href="#about_me_ID"> About Me</a></li>
+          <li ><a href="#about_me_ID"> About Me</a></li>
           <li><a href="#work_ID">Work</a></li>
           <li><a href="#contact_ID">Contact Me</a></li>
           <li><a href="#resume">Resume</a></li>
@@ -23,85 +23,92 @@
       </nav>
     </header>
     <main>
-      <!-- Create banner -->
+<!-- Start Banner for header-->
       <section class="banner" id="banner_img ">
         <div>
-          <img class="icon" src="./img/sid_photo.jpg" />
-          <div class="banner-text">There is a cat above me</div>
+          <img class="icon" src="./img/sid_photo.jpg" aria-label=" image of sid">/>
+          <div class="banner-text">Man cannot discover new oceans unless he has the courage to lose sight of the shore</div>
         </div>
+<!-- End of Banner for header -->
 
-        <!--class or id set to banner-->
-        <!-- add subtextbox -->
-        <!-- developer's name, a recent photo or avatar -->
       </section>
+      <!-- Start about me Section -->
       <section class="about_me" id="about_me_ID">
-        <!-- about me header aside -->
+
 
         <aside class="border_2">
-          <h2>About me</h2>
+          <h2 aria-label="About Me section">About me</h2>
         </aside>
 
         <!-- about me paragraph -->
         <p>
           My name is Siddharth Desai with a degree in Computer Science from NJIT. I kick started my career at Lockheed Martin where I worked in the roles of Software Engineer and Systems Engineer. At Lockheed Martin, I worked on many complex and exciting projects SCOT-Aegis which simulated the environment for operators in ships that used the Aegis Combat system. I learned tremendously about different weapon systems, radar, sensors, luminator trajectory mathematics and much more. The complex work at Lockheed helped me develop a strong work ethic and improve my overall knowledge on how to be a better engineer. I am currently working at PSEG based out of NJ and support various applications  such as FileNet, McLaren, Axway, iManage and recently was given a new task to automate manual workflows, controls and upload data to a cloud environment. I have learned extensively about servers, security and network infrastructure. 
 
-<br><br><br><br>
+         <br><br><br><br>  
           A little more about me is that I have a dog named Hiro and a beautiful wife named Neha. My wife recently started a job in Colorado so we moved here and I am working fully remote. Some of my hobbies are reading manga, watching anime, and studying different topics such as philosophy, hydroponics, and astronomy. I also love working out, hiking, playing sports and of course playing video games.
         </p>
+        <!-- End ofabout me paragraph -->
       </section>
+  <!-- End of about me Section -->
 
-      <!-- work section-->
+  <!-- Start of work Section -->
       <section class="work1">
-        <!-- about me header aside -->
+ 
         <aside class="border">
           <h2>Work</h2>
-          <!-- <div class="border"></div> -->
+
         </aside>
 
-        <!-- img box section -->
+
         <div class="work" id="workID">
           
-          <div class="work_div" onclick="window.location= 'https://github.com/SHD118/Portfolio';" >
-         
-         
-            <!-- <div><img src="./img/port.jpg" /></div> -->
+          <!--start of first project in work section  -->
+          <div class="work_div" aria-label=" image of Refactor project with link" onclick="window.location= 'https://github.com/SHD118/Portfolio';" >
+         <!-- onclick code: upon clicking within the above workdiv it will link to my github url -->
 
             <div id="caption">
-              <h3>Report</h3>
+              <h3>Refactor Code Project</h3>
             </div>
           </div>
+            <!--end of first project in work section  -->
+             <!--start of second project in work section  -->
+          <div class="work_div" >
 
-          <div class="work_div">
-            <!-- <div><img src="./img/port.jpg" /></div> -->
-            <div id="caption">
-              <h3>Report</h3>
+            <div id="caption aria-label="image of placeholder project">
+              <h3>placeholder</h3>
             </div>
           </div>
-          <div class="work_div">
+           <!--end of second project in work section  -->
+                       
+             <!--start of third project in work section  -->
+          <div class="work_div"  aria-label="image of placeholder project" >
             <div id="caption">
-              <h3>Report</h3>
+              <h3>placeholder</h3>
             </div>
-            <!-- <div><img src="./img/port.jpg" /></div> -->
           </div>
-          <div class="work_div">
+                <!--end of third project in work section  -->
+            <!--start of fourth project in work section  -->
+          <div class="work_div"  aria-label="image of placeholder project">
             <div id="caption">
-              <h3>Report</h3>
+              <h3>placeholder</h3>
             </div>
-            <!-- <div><img src="./img/port.jpg" /></div> -->
+              <!--end of fourth project in work section  -->  
           </div>
-          <div class="work_div">
+          <!--start of fifth project in work section  -->
+          <div class="work_div"  aria-label="image of placeholder project">
             <div id="caption">
-              <h3>Report</h3>
+              <h3>placeholder</h3>
             </div>
-            <!-- <div><img src="./img/port.jpg" /></div> -->
+
           </div>
+            <!--end of fifth project in work section  -->
         </div>
       </section>
-    </main>
+      
+  <!-- End of work Section -->
 
+  <!-- Start of resume Section -->
     <section class="resume" id="resume_ID">
-      <!-- about me header aside -->
-      <!-- <aside class="border_1"> -->
 
       <aside class="border_2">
         <h2>Resume</h2>
@@ -110,28 +117,23 @@
         <div class="button_div"><a href = "./img/Sid_Desai_Resume 2020_updated.pdf" target="blank"
           download><button class="btn-grad">Resume</button></a>
           </div><p>Please click the button to download my resume</p>
-        
- 
-
-      <!-- </aside> -->
-
-      <!-- about me paragraph -->
+         <!-- End of resume Section -->
     </section>
-    <section class="contact" id="contact_ID">
-      <!-- about me header aside -->
-      <!-- <aside class="border_1"> -->
+  </main>
+  <!-- End of Main Content -->
+  <!-- Start of footer -->
+    <footer class="contact" id="contact_ID">
+
       <div class="cont">
         <h2 class="border_2">Contact</h2>
       </div>
-      <!-- </aside> -->
-
-      <!-- about me paragraph -->
-      <p>contact</p>
-      <p>contact</p>
-      <p>contact</p>
-      <p>contact</p>
-    </section>
-
-    <footer></footer>
+      <p>908-883-0191</p>
+      <p>shdesai118@gmail.com</p>
+      <a href = "https://github.com/SHD118"><p>GitHub</p></a>
+      <a href = "https://twitter.com/?lang=en"><p>Twitter</p></a>
+      <a href = "https://www.spotify.com/us/"><p>Spotify</p></a>
+    </footer>
+  <!-- End of footer -->
+  
   </body>
 </html>
