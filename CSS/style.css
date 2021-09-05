@@ -159,10 +159,13 @@ h2 {
 }
 .work_div:first-child {
   display: block;
+  background-image: url("../img/01-html-css-git-homework-demo.png");
+
   margin-top: 4vw;
   width: 80%;
   height: 30vw;
 }
+
 .border,
 .border_1,
 .border_2 {
@@ -197,6 +200,9 @@ h2 {
 
 .contact {
   width: var(--hundred_percent);
+}
+.contact p {
+  margin: var(--hundred_pixel);
 }
 
 /* pesduo classes */
@@ -307,8 +313,6 @@ h2 {
   }
   .contact p {
     text-align: center;
-
-    margin: 5%;
   }
   .resume {
     display: flex;
