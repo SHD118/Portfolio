@@ -1,8 +1,7 @@
 # Portfolio
 Profession Portfolio
 
-
-:space_invader:	:space_invader:	:space_invader:	:space_invader:	:space_invader:	 By Siddharth Desai :space_invader:	:space_invader:	:space_invader:	:space_invader:	:space_invader:	![](/img/readme_header.PNG)
+![](/img/readme_header.PNG)
 
 ## Description
 
