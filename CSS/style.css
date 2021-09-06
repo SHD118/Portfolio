@@ -27,7 +27,7 @@ main {
   /* I like the look with a lower opaticy overlaying all of main */
   opacity: 0.8;
 }
-/* global */
+/* global display for display: flex */
 .work,
 .work_di,
 .navbar_items,
@@ -39,50 +39,37 @@ li,
   display: var(--display-flex);
   /* text-align: center; */
 }
-.about_me p {
-  margin-top: 8%;
-  margin-right: 10%;
+/* Aside tag positioning */
+aside {
+  float: var(--float-left);
+  margin: var(--hundred_pixel);
 }
-.work_div,
-.icon {
-  position: var(--position-relative);
+/* p tag width  */
+p {
+  width: var(--hundred_percent);
 }
-.banner-text,
-#caption {
-  position: var(--position-absolute);
+/* h2 tag font size */
+h2 {
+  font-size: 60px;
 }
-.navbar_items ul,
-li {
-  text-align: var(--center-position);
-  margin-left: 10px;
-  color: white;
-}
-.work,
-.banner #caption {
-  justify-content: var(--center-position);
-  text-align: var(--center-position);
-  background-position: var(--center-position);
-}
-/* end */
 
+/* header styling */
 header {
   height: var(--hundred_pixel);
   width: var(--hundred_percent);
   background: var(--background-gradient);
   opacity: 1;
 }
+/* Styling for my name in the navbar */
 header .title_sid {
   margin-top: 1%;
   float: left;
-
   padding-left: 5%;
-
   background-size: 10%;
-  font-size: 2vw;
-
+  font-size: 3vw;
   background-image: yellow;
 }
-
+/* Navbar [positioning for position, color and size */
 .navbar_items {
   float: var(--float-right);
   margin-right: 5%;
@@ -90,69 +77,78 @@ header .title_sid {
   font-size: 1.5vw;
   color: white;
 }
-
+/* Navbar list styling */
+.navbar_items ul,
+li {
+  text-align: var(--center-position);
+  margin-left: 10px;
+  color: white;
+}
+/*  banner styling height and background */
 .banner {
   height: 400px;
   width: var(--hundred_percent);
   background-image: url("../img/mountain.jpg");
 }
-
+/* Banner quote styling positioning, size, font and color*/
 .banner-text {
   display: inline;
-
   margin-left: 5%;
   margin-top: 16%;
-  /* margin-right: 20%; */
   padding-right: 5%;
-
   font-family: "Roboto", sans-serif;
   font-size: 1.8vw;
   float: var(--float-right);
   color: white;
-  /* z-index: 1; */
-  /* background-color: blue; */
 }
+/* styling of my profile picture making it a circle and position */
 .icon {
   float: var(--float-left);
+  margin-top: 2%;
   margin-left: 4vw;
   border-radius: 50%;
 }
-
-aside {
-  float: var(--float-left);
-  margin: var(--hundred_pixel);
+/* banner and capation text position set to absolute */
+.banner-text,
+#caption {
+  position: var(--position-absolute);
 }
-p {
-  /* margin: var(--hundred_pixel); */
-  width: var(--hundred_percent);
+/* Positioning for about me p tag */
+.about_me p {
+  margin-top: 8%;
+  margin-right: 10%;
 }
-h2 {
-  font-size: 60px;
+/* Work, banner, caption positioning */
+.work,
+.banner #caption {
+  justify-content: var(--center-position);
+  text-align: var(--center-position);
+  background-position: var(--center-position);
 }
-
+/* work_div and icon position */
+.work_div,
+.icon {
+  position: var(--position-relative);
+}
+/* work set to flex wrap */
 .work {
   flex-wrap: wrap;
-
-  /* justify-content: center; */
 }
-
+/* .work_div stying for positiong, text and background color */
 .work_div {
   width: 26vw;
   height: 20vh;
-
-  /* background-image: url("../img/port.jpg"); */
   background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);
   opacity: 0.5;
   background-size: cover;
   background-repeat: no-repeat;
-  /* flex-wrap: wrap; */
   border: 10px solid white;
-
   margin-right: 40px;
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
+/* .work_div:first-child display set to block, image to refactor project, size and positioning */
 .work_div:first-child {
   display: block;
   background-image: url("../img/01-html-css-git-homework-demo.png");
@@ -161,86 +157,24 @@ h2 {
   width: 80%;
   height: 30vw;
 }
-
-.border,
-.border_1,
-.border_2 {
-  border-right: var(--border-right);
-  margin-left: var(--margin-left-border);
-  height: 500px;
-}
-.border_2 {
-  height: 200px;
-}
-.border_1 {
-  height: var(--hundred_pixel);
-}
-.cont {
-  float: left;
-}
-.contact {
-  display: flex;
-}
-.contact ul {
-  width: 100%;
-}
-.contact li {
-  margin: 5%;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  text-align: var(--center-position);
-  font-size: 1vw;
-}
-
-.contact p {
-  display: flex;
-
-  /* flex: 1 1 100%; */
-  /* width: 100%; */
-  flex-wrap: wrap;
-  align-items: stretch;
-}
-
+/* Caption styling for size, padding, positioning, text and background color */
 #caption {
   width: 12vw;
   height: 50px;
   bottom: 0px;
   padding-top: 1%;
-
   color: #ffffff;
-
   font-weight: bold;
   opacity: 1;
-
   margin-left: 0%;
   margin-bottom: 5%;
   background-image: linear-gradient(135deg, #3b2667 10%, #bc78ec 100%);
 }
-
-.contact {
-  width: var(--hundred_percent);
-}
-.contact p {
-  margin: var(--hundred_pixel);
-  /* margin: 15%; */
-}
-.contact a {
-  /* margin: 15%; */
-}
-
-/* pesduo classes */
-.work_div:hover {
-  opacity: 1;
-}
-
-.navbar_items a:hover,
-.title_sid:hover {
-  color: aqua;
-}
+/*Resume section width  */
 .resume {
   width: 100%;
 }
+/*Resume container div styling for positioning, padding, size, border, background color   */
 .resume_container {
   margin: auto;
   width: 60%;
@@ -255,26 +189,18 @@ h2 {
     #2b86c5 100%
   );
 }
-
-.btn-grad {
-  background-image: linear-gradient(
-    to right,
-    #aa076b 0%,
-    #61045f 51%,
-    #aa076b 100%
-  );
+/* Resume p tag positioning and padding  */
+.resume_container p {
+  text-align: center;
+  padding: auto;
 }
+/*button styling position, margin and display set to flex  */
 .button_div {
   display: flex;
   justify-content: center;
-
   margin: 2%;
 }
-
-.btn-grad {
-  background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
-}
-
+/* button styling for positioning, margin, border, font color, tranform text to uppercase */
 .btn-grad {
   display: flex;
   justify-content: center;
@@ -288,59 +214,129 @@ h2 {
   box-shadow: 0 0 20px #eee;
   border-radius: 10px;
 }
+/* Button background color set to linear gradient for right end */
+.btn-grad {
+  background-image: linear-gradient(
+    to right,
+    #aa076b 0%,
+    #61045f 51%,
+    #aa076b 100%
+  );
+}
+/* Button background color set to linear gradient to 135 degrees*/
+.btn-grad {
+  background-image: linear-gradient(135deg, #f97794 10%, #623aa2 100%);
+}
 
+/* contact section width set to 100% and display set to flex */
+.contact {
+  width: var(--hundred_percent);
+  display: flex;
+}
+/*contact ul tag width set to 100%  */
+.contact ul {
+  width: 100%;
+}
+/* contact li tag styling for margin, width, display set flex, text aligned to center and font size */
+.contact li {
+  margin: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: var(--center-position);
+  font-size: 1vw;
+}
+/* border float left for all the aside tags */
+.border_float_left {
+  float: left;
+}
+/*.border_work,
+.border_contact,
+.border_about_resume  styling and margin left */
+.border_work,
+.border_contact,
+.border_about_resume {
+  border-right: var(--border-right);
+  margin-left: var(--margin-left-border);
+}
+/*.border_work height */
+.border_work {
+  height: 1000px;
+}
+/*.border_about_resume height  */
+.border_about_resume {
+  height: 200px;
+}
+/*.border_contact  height  */
+.border_contact {
+  height: var(--hundred_pixel);
+}
+/* pesduo classes */
+/* turn opacity to 1 when hovering over work images */
+.work_div:hover {
+  opacity: 1;
+}
+/* changes color of nav items and my name to aqua when hovering over it */
+.navbar_items a:hover,
+.title_sid:hover {
+  color: aqua;
+}
+/* changes color of button + direction when hovering over it */
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
   color: #fff;
   text-decoration: none;
 }
-.resume_container p {
-  text-align: center;
-  padding: auto;
-}
+/* rotates profile image 50 degrees */
 .banner img:hover {
   transform: rotate(50deg);
 }
+/* end of pesudo classes */
+/* start of media query */
 @media (max-width: 770px) {
+  /* changes size and margin of banner text when screen size is less than 770px */
   .banner-text {
-    /* background-color: chocolate; */
-
     font-size: 3vw;
     margin-right: 6%;
   }
+  /* changes work_div width when screen size is less than 770px */
   .work_div {
     width: 100%;
   }
+  /* changes captions display and width when screen size is less than 770px */
   #caption {
     display: block;
     width: 100%;
   }
+  /* changes main content margin and width when screen size is less than 770px */
   main {
     margin: 0;
     width: 100%;
   }
-
+  /* changes .contact display to column and styling when screen size is less than 770px */
   .contact {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
   }
+  /* changes .contact -> ul and li tags display to column and styling when screen size is less than 770px */
   .contact ul,
   li {
+    font-size: 2vw !important;
     display: flex;
     flex-direction: column;
     text-align: center;
   }
-
+  /* changes .resume display to column and styling when screen size is less than 770px */
   .resume {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 10%;
   }
-
-  .border_1 {
+  /* changes .border_contact display to column and styling when screen size is less than 770px */
+  .border_contact {
     display: flex;
     flex-direction: column;
     border-right: 0;
@@ -348,7 +344,7 @@ h2 {
     border-bottom: 5px solid white;
     width: 50%;
   }
-
+  /* changes .about_me display to column and styling when screen size is less than 770px */
   .about_me {
     display: flex;
     flex-direction: column;
@@ -356,6 +352,7 @@ h2 {
     text-align: center;
     /* transition: ease all 0.5s; */
   }
+  /* changes .about_me -> p tag display to column and styling when screen size is less than 770px */
   .about_me p {
     display: flex;
     flex-direction: column;
@@ -364,7 +361,8 @@ h2 {
     margin-top: -5%;
     /* transition: ease all 0.5s; */
   }
-  .border_2 {
+  /* changes.border_about_resume display to column and styling when screen size is less than 770px */
+  .border_about_resume {
     display: flex;
     flex-direction: column;
     border-right: 0;
@@ -373,7 +371,8 @@ h2 {
     width: 50%;
     padding-bottom: 10%;
   }
-  .border {
+  /* changes .border_work display to column and styling when screen size is less than 770px */
+  .border_work {
     display: flex;
     flex-direction: column;
     border-right: 0;
@@ -382,14 +381,16 @@ h2 {
     width: 50%;
     padding-bottom: 10%;
   }
-
-  .work1 {
+  /* changes .work_section display to column and styling when screen size is less than 770px */
+  .work_section {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
+  /* changes .contact -> h2 tag font size to 40px when screen size is less than 770px */
   .contact h2 {
     font-size: 40px;
   }
+  /* end of media query */
 }
