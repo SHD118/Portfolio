@@ -92,14 +92,25 @@ li {
   width: var(--hundred_percent);
   background-image: url("../img/mountain.jpg");
 }
-/* Banner quote styling positioning, size, font and color*/
+/* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
   display: inline;
   margin-left: 5%;
-  margin-top: 16%;
+  margin-top: 12%;
   padding-right: 5%;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Spirax', cursive;
   font-size: 1.8vw;
+  float: var(--float-right);
+  color: white;
+}
+/* Banner .quote_name styling positioning, size, font and color*/
+.quote_name{
+  display: inline;
+  position: relative;
+  margin-left: 40%;
+  margin-top: 15%;
+  padding-right: 5%;
+  font-size: 1vw;
   float: var(--float-right);
   color: white;
 }
@@ -275,9 +286,12 @@ li {
   height: var(--hundred_pixel);
 }
 /* pesduo classes */
-/* turn opacity to 1 when hovering over work images */
+/* turn opacity to 1,rotate 3 degrees with a box shadown when hovering over work images  */
 .work_div:hover {
   opacity: 1;
+  transform: rotate(3deg);
+  box-shadow: -30px 30px 20px rgba(0,0,0,3);
+  
 }
 /* changes color of nav items and my name to aqua when hovering over it */
 .navbar_items a:hover,
@@ -294,17 +308,32 @@ li {
   color: #fff;
   text-decoration: none;
 }
-/* rotates profile image 50 degrees */
+/* rotates profile image 360 with border degrees */
 .banner img:hover {
-  transform: rotate(50deg);
+  transition: 3000ms;
+  transform: rotate(360deg);
+  border: 10px solid firebrick;
 }
 /* end of pesudo classes */
 /* start of media query */
 @media (max-width: 770px) {
+
   /* changes size and margin of banner text when screen size is less than 770px */
   .banner-text {
     font-size: 3vw;
     margin-right: 6%;
+    /* padding-right: 100px; */
+  }
+  @media (max-width: 770px) {
+    /* changes size and margin of banner text when screen size is less than 770px */
+    .quote_name {
+      margin-top: 40%;
+      font-size: 2vw;
+      position: absolute;
+      display: block;
+      margin-left: 75%;
+      
+    }
   }
   /* changes work_div width when screen size is less than 770px */
   .work_div {
@@ -353,12 +382,12 @@ li {
   }
   /* changes .about_me display to column and styling when screen size is less than 770px */
   .about_me {
-    /* border: 10px solid firebrick; */
+    
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    /* transition: ease all 0.5s; */
+    
   }
   /* changes .about_me -> p tag display to column and styling when screen size is less than 770px */
   .about_me p {
@@ -399,6 +428,7 @@ li {
   /* changes .contact -> h2 tag font size to 40px when screen size is less than 770px */
   .contact h2 {
     font-size: 40px;
+   
   }
   /* end of media query */
 }
