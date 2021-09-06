@@ -4,6 +4,7 @@
   padding: 0;
   text-decoration: none;
   color: white;
+  font-family: "Azeret Mono", monospace;
 }
 :root {
   /* Create Variables to reused and consolidate repetivie code */
@@ -37,6 +38,7 @@ li,
 .about_me,
 .resume {
   display: var(--display-flex);
+
   /* text-align: center; */
 }
 /* Aside tag positioning */
@@ -118,6 +120,7 @@ li {
   margin-top: 8%;
   margin-right: 10%;
 }
+
 /* Work, banner, caption positioning */
 .work,
 .banner #caption {
@@ -281,6 +284,10 @@ li {
 .title_sid:hover {
   color: aqua;
 }
+.banner-text:hover {
+  color: darkslategrey;
+  opacity: 1;
+}
 /* changes color of button + direction when hovering over it */
 .btn-grad:hover {
   background-position: right center; /* change the direction of the change here */
@@ -346,6 +353,7 @@ li {
   }
   /* changes .about_me display to column and styling when screen size is less than 770px */
   .about_me {
+    /* border: 10px solid firebrick; */
     display: flex;
     flex-direction: column;
     align-items: center;
