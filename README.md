@@ -10,6 +10,11 @@ Profession Portfolio
 * What problem does this solve: This webpage showcases projects I created and worked on to see my level as a developer.
 * What did I learn:  Building this webpage helped me better understand html/css and formating/positioning elements through flex.
 
+######More Detail 
+* I first built my html into sections keeping in mind semantics
+** Nav
+*** navabar items in an unordered list
+
 
 
 ## Table of Content
