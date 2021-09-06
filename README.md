@@ -26,9 +26,9 @@ Profession Portfolio
 <br/>
 
 ## Webpage Example
-
-![](/img/Portfolio_webpage.png)
 ![](/img/readme_header.png)
+![](/img/Portfolio_webpage.png)
+
 
 ### Installing
 
