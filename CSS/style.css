@@ -31,7 +31,7 @@ main {
 .work,
 .work_di,
 .navbar_items,
-.contact,
+/* .contact, */
 ul,
 li,
 .about_me,
@@ -51,7 +51,7 @@ li,
 #caption {
   position: var(--position-absolute);
 }
-ul,
+.navbar_items ul,
 li {
   text-align: var(--center-position);
   margin-left: 10px;
@@ -98,13 +98,15 @@ header .title_sid {
 }
 
 .banner-text {
-  display: inline-flex;
-  width: 40%;
-  margin-left: 10%;
-  margin-top: 10%;
+  display: inline;
+
+  margin-left: 5%;
+  margin-top: 16%;
+  /* margin-right: 20%; */
+  padding-right: 5%;
 
   font-family: "Roboto", sans-serif;
-  font-size: 2vw;
+  font-size: 1.8vw;
   float: var(--float-right);
   color: white;
   /* z-index: 1; */
@@ -175,8 +177,31 @@ h2 {
 }
 .cont {
   float: left;
-  width: 50%;
 }
+.contact {
+  display: flex;
+}
+.contact ul {
+  width: 100%;
+}
+.contact li {
+  margin: 5%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  text-align: var(--center-position);
+  font-size: 1vw;
+}
+
+.contact p {
+  display: flex;
+
+  /* flex: 1 1 100%; */
+  /* width: 100%; */
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+
 #caption {
   width: 12vw;
   height: 50px;
@@ -198,6 +223,10 @@ h2 {
 }
 .contact p {
   margin: var(--hundred_pixel);
+  /* margin: 15%; */
+}
+.contact a {
+  /* margin: 15%; */
 }
 
 /* pesduo classes */
@@ -210,14 +239,9 @@ h2 {
   color: aqua;
 }
 .resume {
-  /* width: var(--hundred_percent); */
-  /* display: flex;
-  flex-wrap: wrap; */
   width: 100%;
 }
 .resume_container {
-  /* display: flex;
-  flex-wrap: wrap; */
   margin: auto;
   width: 60%;
   height: 200px;
@@ -279,7 +303,8 @@ h2 {
 }
 @media (max-width: 770px) {
   .banner-text {
-    background-color: chocolate;
+    /* background-color: chocolate; */
+
     font-size: 3vw;
     margin-right: 6%;
   }
@@ -301,9 +326,13 @@ h2 {
     align-items: center;
     margin-top: 10%;
   }
-  .contact p {
+  .contact ul,
+  li {
+    display: flex;
+    flex-direction: column;
     text-align: center;
   }
+
   .resume {
     display: flex;
     flex-direction: column;
@@ -362,6 +391,5 @@ h2 {
   }
   .contact h2 {
     font-size: 40px;
-    /* margin-left: 50px; */
   }
 }
