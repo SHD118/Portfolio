@@ -40,7 +40,7 @@ Profession Portfolio
 ```
 Powerpoint Link: https://1drv.ms/p/s!AgwXxffey8u1gmz1j7gzqoeeB9nj?e=gc4ZeR
 ```
-![]img/01-html-css-git-homework-demo.png)
+
 
 ## Help
 
