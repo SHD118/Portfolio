@@ -27,7 +27,7 @@ Profession Portfolio
 
 ## Webpage Example
 
-![](Assets/01-html-css-git-homework-demo.png)
+![](img/Portfolio_webpage.png)
 
 ### Installing
 
