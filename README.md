@@ -92,7 +92,7 @@ HTML/CSS Breakdown
   - Finally I ended my main content tag
   - Create a footer for all the contact information
   - I first created a class called contact
-    - I set the width to 100&amp; and display to flex
+    - I set the width to 100%; and display to flex
     - Than created ul/li tags to list everything and since I used flex they will be displayed in rows
     - I set the text-alignment to center and did some styling for margin, padding and font
   - Lastly created media queries so when the max width is set to 770px the webpage will do the following:
