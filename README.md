@@ -21,7 +21,7 @@ I am in the field of information technology and seeking to become a full-stack d
 - [Installation](#installation)
 - [Code_Breakdown](#code_breakdown)
 - [Credits](#credits)
-- [Contact_Information](#contact_information)
+- [Contact_Information](#contact_infomration)
 - [License](#license)
 - [Links](#links)
 
