@@ -15,18 +15,11 @@ I am in the field of information technology and seeking to become a full-stack d
 * What did I learn:  Building this webpage helped me better understand html/css and formating/positioning elements through flex.
 
 
-######More Detail 
-* I first built my html into sections keeping in mind semantics
-** Nav
-*** navabar items in an unordered list
-
-
-
 ## Table of Content
 - [Webpage Example](#webpage%20example)
 - [Links](#links)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Code Breakdown](#Code%20Breakdown)
 - [Credits](#credits)
 - [Help](#help)
 - [License](#license)
@@ -43,7 +36,7 @@ I am in the field of information technology and seeking to become a full-stack d
 * N/A
 
 
-### Usage
+### Code Breakdown
 
 HTML/CSS Breakdown
 
@@ -117,11 +110,11 @@ Contact information: shdesai118@gmail.com
 
 ## Credits
 
-* https://1drv.ms/p/s!AgwXxffey8u1gmz1j7gzqoeeB9nj?e=gc4ZeR
-* https://www.w3schools.com/cssref/css3_pr_background-size.asp
-* https://developer.mozilla.org/en-US/docs/Web/HTML/Element
-* https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
-* https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc#project-title
+* https://cssgradient.io/gradient-backgrounds/
+* https://fonts.google.com/specimen/Spirax#standard-styles
+* https://www.brainyquote.com/quotes/andre_gide_120088
+* https://www.w3schools.com/jsref/jsref_touppercase.asp
+* https://www.youtube.com/watch?v=Nloq6uzF8RQ&ab_channel=KevinPowell
 
 
 
