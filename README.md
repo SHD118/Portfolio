@@ -10,7 +10,7 @@ I am in the field of information technology and seeking to become a full-stack d
 ## Reasoning Behind My Portfolio
 
 * What was my motivation: The motivation for this webpage is to create an online portfolio page for potential recuiter and employers to look through my work and find ways to get    in to contact with me.
-* Why did you build this project?: I wanted an online portfolio for future employers to get to know who I am, the projects I worked on and find a way to get in touch with me.
+* Why did you build this project: I wanted an online portfolio for future employers to get to know who I am, the projects I worked on and find a way to get in touch with me.
 * What problem does this solve: This webpage showcases projects I created and worked on to see my level as a developer.
 * What did I learn:  Building this webpage helped me better understand html/css and formating/positioning elements through flex.
 
