@@ -40,10 +40,67 @@ Profession Portfolio
 
 ### Usage
 
-* Below is detail information on the changes made to refactor the webpage
-```
-Powerpoint Link: https://1drv.ms/p/s!AgwXxffey8u1gmz1j7gzqoeeB9nj?e=gc4ZeR
-```
+HTML/CSS Breakdown
+
+- Created a skeleton keeping in mind semantics
+  - Created a header and put all the navigation code in it
+    - Create a navbar
+      - Created a title set to my name in the navbar
+        - Float: left
+        - Used margin/padding for further position
+        - Used pseudo class hover to change font color to aqua upon hovering over it
+      - Nav\_items
+        - Unordered list
+        - Display: flex
+        - Float: right
+        - Using margin and padding I was able to position the items precisely as I wanted them to display
+        - Used pseudo class hover to change font color to aqua upon hovering over it
+        - Linked all nav item to the corresponding section on the webpage
+  - Created a section called banner to fit an image (background), text and a profile picture of myself in it
+    - First I set a height of 400px and width to 100%
+    - Set a background to fill the space in
+    - I used divs to set the profile pic, banner-text and quote\_name within the section
+    - Than within the styling used display inline
+    - Used a google font {font-family: &#39;Spirax&#39;, cursive;} for the banner text
+    - Leverage float:right for the text and float left for the profile picture
+    - Lastly used margins and padding for exact positioning
+  - Created a About me section
+    - Set display to flex
+    - Created an aside tag and set the class to a border styling class
+      - Border styling: margin:left, border: right and height set to 200px
+    - Styled the about\_me p tags to have margin positioning
+  - Created a work section
+    - The work section is set to display flex and flex-wrap to contain all the content evenly in the rows
+    - Within the work section I created div set to 5 work\_div
+      - Displayed set to relative
+      - I set the height and width as well as set some margins for position
+      - The work div will contain an image of a project but for now I just set a linear-gradient color scheme as a placeholder
+      - The first work\_div doe currently contain an image of the refactoring project when clicked on take you to the github project
+      - I realized you can&#39;t link to another page in css since I set the background image in the css. I realize I encountered a problem. The way I resolved it was by onclick=&quot;window.location=&quot;url&quot; function in the html.
+      - The size of work\_div:first child width and height set to be bigger than the rest of the work\_div to showcase my main project
+      - Within each work\_div i added another div with a class called &quot;caption&quot; and a h3 tag
+      - The caption overlays the name of the project with the text in the p tag
+      - I added a pseudo class so when you hover the opacity changes to 1 and the image rotate slight with a box shadow
+  - Created a section for resume
+    - Within the section I add an aside and set it to a border class to float left
+    - Then created another div set to the resumer\_container class which:
+      - Has a width 60% and height to 200px
+      - I also added a border and gave it some padding and margin for positioning
+      - Finally used a linear-gradient for the background
+      - Aligned the .resume\_contain p tags to be text-aligned centered
+      - Finally created a button that sent user to a print/download page for my resume by placing my resume in my image directly and using the following
+      - The button is set to display and center aligned
+      - The button has styling set to it for color, padding, margin, border radius., boxing shadowing.
+  - Finally I ended my main content tag
+  - Create a footer for all the contact information
+  - I first created a class called contact
+    - I set the width to 100&amp; and display to flex
+    - Than created ul/li tags to list everything and since I used flex they will be displayed in rows
+    - I set the text-alignment to center and did some styling for margin, padding and font
+  - Lastly created media queries so when the max width is set to 770px the webpage will do the following:
+    - The page will change to columns to be more user friendly
+    - Change fonts to display more clear as the screen sizes reduce
+    - Made all the borders to display below the columns
 
 
 ## Help
