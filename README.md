@@ -81,7 +81,7 @@ HTML/CSS Breakdown
       - I added a pseudo class so when you hover the opacity changes to 1 and the image rotate slight with a box shadow
   - Created a section for resume
     - Within the section I add an aside and set it to a border class to float left
-    - Then created another div set to the resumer\_container class which:
+    - Then created another div set to the resume\_container class which:
       - Has a width 60% and height to 200px
       - I also added a border and gave it some padding and margin for positioning
       - Finally used a linear-gradient for the background
