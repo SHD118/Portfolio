@@ -13,7 +13,7 @@ I am in the field of information technology and seeking to become a full-stack d
 * Why did you build this project?: I wanted an online portfolio for future employers to get to know who I am, the projects I worked on and find a way to get in touch with me.
 * What problem does this solve: This webpage showcases projects I created and worked on to see my level as a developer.
 * What did I learn:  Building this webpage helped me better understand html/css and formating/positioning elements through flex.
-
+--- 
 
 ## Table of Content
 - [Webpage Example](#webpage%20example)
@@ -26,15 +26,15 @@ I am in the field of information technology and seeking to become a full-stack d
 - [Links](#links)
 
 <br/>
-
+--- 
 ## Webpage Example
 ![](/img/Portfolio_webpage.png)
 
-
+--- 
 ### Installing
 
 * N/A
-
+--- 
 
 ### Code Breakdown
 
@@ -99,7 +99,7 @@ HTML/CSS Breakdown
     - The page will change to columns to be more user friendly
     - Change fonts to display more clear as the screen sizes reduce
     - Made all the borders to display below the columns
-
+--- 
 
 ## Help
 
@@ -107,7 +107,7 @@ Please reach out to me if are you having any issues navigating through the code
 ```
 Contact information: shdesai118@gmail.com
 ```
-
+--- 
 ## Credits
 
 * https://cssgradient.io/gradient-backgrounds/
@@ -115,17 +115,16 @@ Contact information: shdesai118@gmail.com
 * https://www.brainyquote.com/quotes/andre_gide_120088
 * https://www.w3schools.com/jsref/jsref_touppercase.asp
 * https://www.youtube.com/watch?v=Nloq6uzF8RQ&ab_channel=KevinPowell
-
-
+--- 
 
 ## License
 
 This project is free use
-
+--- 
 ## Links
 
 [Live Link](https://shd118.github.io/Refactoring-Horiseon-Webpage/)
 
 [Github Link](https://github.com/SHD118/Refactoring-Horiseon-Webpage/blob/master/README.md)
-
+--- 
 
