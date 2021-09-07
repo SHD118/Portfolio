@@ -31,12 +31,12 @@ I am in the field of information technology and seeking to become a full-stack d
 ![](/img/Portfolio_webpage.png)
 
 
-### Installing
+## Installing
 
 * N/A
  
 
-### Code Breakdown
+## Code Breakdown
 
 HTML/CSS Breakdown
 
