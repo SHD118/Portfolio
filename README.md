@@ -19,7 +19,7 @@ I am in the field of information technology and seeking to become a full-stack d
 - [Webpage Example](#webpage%20example)
 - [Links](#links)
 - [Installation](#installation)
-- [Code Breakdown](#Code%20Breakdown)
+- [Code Breakdown](code%20breakdown)
 - [Credits](#credits)
 - [Help](#help)
 - [License](#license)
