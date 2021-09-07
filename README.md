@@ -19,9 +19,9 @@ I am in the field of information technology and seeking to become a full-stack d
 - [Webpage](#webpage)
 - [Links](#links)
 - [Installation](#installation)
-- [Code Breakdown](#code_breakdown)
+- [Code_Breakdown](#code_breakdown)
 - [Credits](#credits)
-- [Contact Information](#contact%20information)
+- [Contact_Information](#contact_information)
 - [License](#license)
 - [Links](#links)
 
@@ -101,7 +101,7 @@ HTML/CSS Breakdown
     - Made all the borders to display below the columns
 
 
-## Contact Infomration
+## Contact_Infomration
 
 ```
 Email: shdesai118@gmail.com
