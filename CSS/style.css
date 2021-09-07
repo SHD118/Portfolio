@@ -97,15 +97,15 @@ li {
   margin-left: 5%;
   margin-top: 12%;
   padding-right: 5%;
-  font-family: 'Spirax', cursive;
+  font-family: "Spirax", cursive;
   font-size: 1.8vw;
   float: var(--float-right);
   color: white;
 }
 /* Banner .quote_name styling positioning, size, font and color*/
-.quote_name{
+.quote_name {
   display: inline;
-  position: absolute;
+  position: relative;
   margin-left: 40%;
   margin-top: 15%;
   padding-right: 5%;
@@ -263,9 +263,7 @@ li {
 .border_float_left {
   float: left;
 }
-/*.border_work,
-.border_contact,
-.border_about_resume  styling and margin left */
+/* styling for borders */
 .border_work,
 .border_contact,
 .border_about_resume {
@@ -289,8 +287,7 @@ li {
 .work_div:hover {
   opacity: 1;
   transform: rotate(3deg);
-  box-shadow: -30px 30px 20px rgba(0,0,0,3);
-  
+  box-shadow: -30px 30px 20px rgba(0, 0, 0, 3);
 }
 /* changes color of nav items and my name to aqua when hovering over it */
 .navbar_items a:hover,
@@ -316,7 +313,6 @@ li {
 /* end of pesudo classes */
 /* start of media query */
 @media (max-width: 770px) {
-
   /* changes size and margin of banner text when screen size is less than 770px */
   .banner-text {
     font-size: 3vw;
@@ -331,7 +327,6 @@ li {
       position: absolute;
       display: block;
       margin-left: 75%;
-      
     }
   }
   /* changes work_div width when screen size is less than 770px */
@@ -381,12 +376,10 @@ li {
   }
   /* changes .about_me display to column and styling when screen size is less than 770px */
   .about_me {
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    
   }
   /* changes .about_me -> p tag display to column and styling when screen size is less than 770px */
   .about_me p {
@@ -427,7 +420,6 @@ li {
   /* changes .contact -> h2 tag font size to 40px when screen size is less than 770px */
   .contact h2 {
     font-size: 40px;
-   
   }
   /* end of media query */
 }
