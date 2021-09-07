@@ -125,6 +125,6 @@ This project is free use
 
 [Live Link](https://shd118.github.io/Refactoring-Horiseon-Webpage/)
 
-[Github Link](https://github.com/SHD118/Refactoring-Horiseon-Webpage/blob/master/README.md)
+[Github Link](https://github.com/SHD118/Portfolio/blob/master/README.md)
  
 
