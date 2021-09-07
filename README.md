@@ -16,7 +16,7 @@ I am in the field of information technology and seeking to become a full-stack d
 
 
 ## Table of Content
-- [Webpage Example](#webpage%20example)
+- [Webpage](#webpage)
 - [Links](#links)
 - [Installation](#installation)
 - [Code Breakdown](code%20breakdown)
@@ -27,7 +27,7 @@ I am in the field of information technology and seeking to become a full-stack d
 
 <br/>
 
-## Webpage Example
+## Webpage
 ![](/img/Portfolio_webpage.png)
 
 
