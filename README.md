@@ -101,11 +101,11 @@ HTML/CSS Breakdown
     - Made all the borders to display below the columns
 
 
-## Help
+## Contact Infomration
 
-Please reach out to me if are you having any issues navigating through the code
 ```
-Contact information: shdesai118@gmail.com
+Email: shdesai118@gmail.com
+Cell: 908-883-0191
 ```
 
 ## Credits
