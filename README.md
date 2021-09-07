@@ -19,7 +19,7 @@ I am in the field of information technology and seeking to become a full-stack d
 - [Webpage](#webpage)
 - [Links](#links)
 - [Installation](#installation)
-- [Code Breakdown](code%20breakdown)
+- [Code Breakdown](#code%20breakdown)
 - [Credits](#credits)
 - [Help](#help)
 - [License](#license)
@@ -31,7 +31,7 @@ I am in the field of information technology and seeking to become a full-stack d
 ![](/img/Portfolio_webpage.png)
 
 
-## Installing
+## Installation
 
 * N/A
  
@@ -126,5 +126,5 @@ This project is free use
 [Live Link](https://shd118.github.io/Refactoring-Horiseon-Webpage/)
 
 [Github Link](https://github.com/SHD118/Refactoring-Horiseon-Webpage/blob/master/README.md)
---- 
+ 
 
