@@ -88,9 +88,9 @@ li {
 /*  banner styling height and background */
 .banner {
   height: 400px;
-  /* width: var(--hundred_percent); */
+  width: var(--hundred_percent);
   background-image: url("../img/mountain.jpg");
-  background: var(--hundred_percent);
+
 }
 /* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
