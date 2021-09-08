@@ -126,7 +126,8 @@ li {
 }
 /* Positioning for about me p tag */
 .about_me p {
-  margin-top: 8%;
+  margin-top: 5%;
+  /* margin-top: 8%; */
   margin-right: 10%;
 }
 
