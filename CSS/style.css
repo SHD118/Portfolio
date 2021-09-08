@@ -77,6 +77,7 @@ header .title_sid {
   margin-top: 2%;
   font-size: 1.5vw;
   color: white;
+ 
 }
 /* Navbar list styling */
 .navbar_items ul,
@@ -100,21 +101,16 @@ li {
 .banner-text {
  font-family: "Spirax", cursive;
  font-size: 2.0vw;
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center;
-  color: white; 
+  position: absolute;
+  margin: -100px 0 0 400px;
+
 }
 /* Banner .quote_name styling positioning, size, font and color*/
 .quote_name {
-  display: flex; 
-  align-items: center; 
-  justify-content: center; 
-  text-align: center;
-  font-size: 1.5vw;
-  color: white;
- 
+  font-size: 1.0vw;
+  color: white; 
+  position: absolute;
+  margin: -30px 0 0 350px;
 }
 /* styling of my profile picture making it a circle and position */
 .icon {
