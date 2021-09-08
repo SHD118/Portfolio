@@ -88,6 +88,9 @@ li {
 /*  banner styling height and background */
 .banner {
   height: 400px;
+  position: relative;
+  padding-top: 1%;
+  padding-left: 1%;
   background-size: cover;
   background-repeat: no-repeat;
   background-image: url("../img/mountain.jpg");
@@ -117,9 +120,11 @@ li {
 } */
 /* styling of my profile picture making it a circle and position */
 .icon {
-  float: var(--float-left);
+  /* float: var(--float-left);
   margin-top: 2%;
-  margin-left: 4vw;
+  margin-left: 4vw; */
+  position: absolute;
+  margin: 0;
   border-radius: 50%;
 }
 /* banner and capation text position set to absolute */
