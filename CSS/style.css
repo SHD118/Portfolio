@@ -99,7 +99,7 @@ li {
 /* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
   display: inline;
-  position: relative;
+  position: absolute;
   margin-left: 5%;
   margin-top: 12%;
   padding-right: 5%;
@@ -111,9 +111,9 @@ li {
 /* Banner .quote_name styling positioning, size, font and color*/
 .quote_name {
   display: inline;
-  position: relative;
-  /* /* margin-left: 40%; */
-  /* margin-top: 15%; */
+  position: absolute;
+   margin-left: 40%;
+  margin-top: 15%;
   padding-right: 5%; 
 
   font-size: 1vw;
