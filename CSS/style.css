@@ -98,7 +98,6 @@ li {
 }
 /* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
-  position: absolute;
  font-family: "Spirax", cursive;
  font-size: 2.0vw;
   display: flex; 
@@ -109,7 +108,6 @@ li {
 }
 /* Banner .quote_name styling positioning, size, font and color*/
 .quote_name {
-  position: absolute;
   display: flex; 
   align-items: center; 
   justify-content: center; 
