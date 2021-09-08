@@ -122,7 +122,7 @@ li {
   border-radius: 50%;
 }
 /* banner and capation text position set to absolute */
-.banner-text,
+/* .banner-text, */
 #caption {
   position: var(--position-absolute);
 }
