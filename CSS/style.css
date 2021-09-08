@@ -98,26 +98,58 @@ li {
 }
 /* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
-  display: inline;
+  /* display: inline;
   position: relative;
   margin-left: 5%;
   margin-top: 12%;
-  padding-right: 5%;
-  font-family: "Spirax", cursive;
-  font-size: 1.8vw;
-  float: var(--float-right);
+  padding-right: 5%; */
+  /* font-family: 'Roboto', sans-serif; */
+  /* font-size: 11px; */
+  /* display: var(--display-flex);
   color: white;
+  position: absolute;
+  transform: translateY(60%);
+  transform: translateX(30%);
+  top: 70px;  */
+  /* z-index: 0; */
+
+
+ font-family: "Spirax", cursive;
+
+ font-size: 2.2vw;
+ 
+  /* transform: translate(-50%, -50%); */
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  /* position: absolute; */
+/* margin-top:-10%; */
+
+/* top:40%; */
+/* text-align: center; */
+ 
+   /* float: var(--float-right);*/
+  color: white; 
 }
 /* Banner .quote_name styling positioning, size, font and color*/
 .quote_name {
-  display: inline;
-  position: relative;
-  margin-left: 40%;
-  margin-top: 15%;
-  padding-right: 5%; 
+  /* display: inline;
+  position: relative; */
 
-  font-size: 1vw;
-  float: var(--float-right);
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center;
+  font-size: 1.8vw;
+ 
+
+  /* margin-left: 40%;
+  margin-top: 15%;
+  padding-right: 5%;  */
+
+  /* font-size: 1vw; */
+  /* float: var(--float-right); */
   color: white;
 }
 /* styling of my profile picture making it a circle and position */
@@ -324,18 +356,18 @@ li {
 @media (max-width: 770px) {
   /* changes size and margin of banner text when screen size is less than 770px */
   .banner-text {
-    font-size: 3vw;
-    margin-right: 6%;
+    /* font-size: 3vw;
+    margin-right: 6%; */
     /* padding-right: 100px; */
   }
   @media (max-width: 770px) {
     /* changes size and margin of banner text when screen size is less than 770px */
     .quote_name {
-      margin-top: 40%;
-      font-size: 2vw;
+      /* margin-top: 40%; */
+      /* font-size: 2vw;
       position: absolute;
       display: block;
-      margin-left: 75%;
+      margin-left: 75%; */
     }
   }
   /* changes work_div width when screen size is less than 770px */
