@@ -88,8 +88,9 @@ li {
 /*  banner styling height and background */
 .banner {
   height: 400px;
-  width: var(--hundred_percent);
+  /* width: var(--hundred_percent); */
   background-image: url("../img/mountain.jpg");
+  background: var(--hundred_percent);
 }
 /* Banner .banner-text styling positioning, size, font and color*/
 .banner-text {
@@ -255,7 +256,7 @@ li {
   margin: 5%;
   width: 100%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   text-align: var(--center-position);
   font-size: 1vw;
 }
